@@ -1,5 +1,8 @@
 <template>
-  <header class="uk-section uk-section-small">
+  <header
+    class="uk-section uk-section-small"
+    uk-sticky="start: 300; animation: uk-animation-slide-top; cls-active: uk-navbar-sticky uk-background-default uk-box-shadow-small; cls-inactive: uk-section uk-section-small"
+  >
     <div class="uk-container">
       <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
         <div class="uk-navbar-center">

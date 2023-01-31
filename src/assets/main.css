@@ -1,9 +1,22 @@
 @import "https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/css/uikit.min.css";
 
+body {
+    background-color: #fdfdfd;
+}
 .uk-logo img {
     width: 60px;
 }
 .branding {
     width: 30px;
     filter: grayscale();
+}
+.uk-card-media-top img{
+    width: 100%;
+}
+.uk-article-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+.uk-article-meta a {
+    color: rgb(0, 132, 255);
 }
