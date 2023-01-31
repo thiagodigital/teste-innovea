@@ -3,3 +3,7 @@
 .uk-logo img {
     width: 60px;
 }
+.branding {
+    width: 30px;
+    filter: grayscale();
+}
