@@ -1,0 +1,31 @@
+<template>
+  <header class="uk-section uk-section-small">
+    <div class="uk-container">
+      <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+        <div class="uk-navbar-center">
+          <a
+            class="uk-navbar-item uk-logo uk-text-uppercase"
+            href="#"
+            aria-label="Back to Home"
+          >
+            <img src="../assets/logo.svg" alt="" />
+            {{ branding }}<b>news</b>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+</template>
+
+<script lang="ts">
+export default {
+  data() {
+    return {
+      branding: "",
+    };
+  },
+  mounted() {
+    this.branding = import.meta.env.VITE_SUBJECT;
+  },
+};
+</script>
